@@ -1,0 +1,185 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>
+            Form Page
+        </title>
+        <!--This is for make website responsive, Viewport-->
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+    </head>
+    <body style="background-color: rgba(79, 7, 247, 0.884);">
+        <form>
+            <div>
+                Name: Text Type
+                <input type="text">
+            </div>
+            <div>
+                Submit Button:
+                <input type="submit">
+            </div>
+            <div>
+                Colour:
+                <input type="color">
+            </div>
+            <div>
+                Date:
+                <input type="date">
+            </div>
+            <div>
+                Email:
+                <input type="email">
+            </div>
+            <div>
+                Hidden:
+                <input type="hidden" value="Chittagong">
+            </div>
+            <div>
+                Number:
+                <input type="number">
+            </div>
+            <div>
+                Password:
+                <input type="password">
+            </div>
+            <div>
+                Reset:
+                <input type="reset">
+            </div>
+            <div>
+                Time:
+                <input type="time">
+            </div>
+            <div>
+                URL:
+                <input type="url">
+            </div>
+            <div>
+                Range: 500
+                <input type="range" min="500" max="50000"> 50000
+            </div>
+        </form><br>
+        <form enctype="multipart/form-data">
+            <div>
+                File Upload:
+                <input type="file"><br>
+                Multiple File Upload:
+                <input type="file" multiple>
+            </div>
+        </form><br>
+        <form>
+            Name:
+            <input type="text" value="omarjafor"><br>
+            Readonly:
+            <input type="text" value="omarjafor" readonly><br>
+            Disabled:
+            <input type="text" value="omarjafor" disabled><br>
+            Size:
+            <input type="text" value="omarjafor" size="40"><br>
+            Max Length:
+            <input type="text" value="omarjafor" size="40" maxlength="20"><br>
+            Min & Max:
+            <input type="number" min="10" max="100"><br>
+            User Name:
+            <input type="text" placeholder="Enter User Name"><br>
+            Odd Number:
+            <input type="number" value="1" step="2"><br>
+            Even Number
+            <input type="number" value="2" step="2"><br>
+            AutoFocus:
+            <input type="text" autofocus autocomplete="on"><br>
+            <textarea rows="20" cols="50" placeholder="Enter the description"></textarea>
+            <input type="image" src="Submit.jpg" width="100" height="50">
+            <textarea rows="20" cols="50">The description is</textarea>
+            <input type="image" src="Submit.jpg" width="100" height="50">
+            Select:
+            <select>
+                <option value="car">Audi</option>
+                <option value="car">Tata</option>
+                <option value="car">Corola</option>
+            </select>
+            <select>
+                <option value="car">Audi</option>
+                <option value="car" selected>Tata</option>
+                <option value="car">Corola</option>
+            </select>
+            <select size="2" multiple>
+                <option value="car">Audi</option>
+                <option value="car" selected>Tata</option>
+                <option value="car">Corola</option>
+            </select>
+            <select>
+                <optgroup label="Car">
+                    <option value="car">Audi</option>
+                    <option value="car">Tata</option>
+                    <option value="car">Corola</option>
+                    <option value="car">BMW</option>
+                </optgroup>
+                <optgroup label="Sports">  
+                    <option value="Sports">Cricket</option>
+                    <option value="Sports">Football</option>
+                    <option value="Sports">Ludo</option>
+                    <option value="Sports">Carrom</option>
+                </optgroup>
+            </select><br>
+            Radio Button:
+            <input type="radio" name="Gender" value="male">Male
+            <input type="radio" name="Gender" value="Female" checked>Female
+            <input type="radio" name="Gender" value="Others">Others
+            <br><br>
+            Radio Button:
+            <input type="radio" name="emptype" value="manager">Manager
+            <input type="radio" name="emptype" value="devloper" checked>Devloper
+            <input type="radio" name="emptype" value="executive">Executive<br><br>
+            Checkbox Button:
+            <input type="checkbox" name="Sports">Cricket
+            <input type="checkbox" name="Sports">Football
+            <input type="checkbox" name="Sports">Kabadi<br><br>
+            Data List:<br><br>
+            Search: 
+            <input type="text" list="search">
+                <datalist id="search">
+                    <option value="Cricket">
+                    <option value="Football">
+                    <option value="Ludo">
+                    <option value="Carrom">
+                    <option value="Tenis">
+                    <option value="Handball">
+                    <option value="Hoqee">
+                    <option value="Basketball">
+                </datalist>
+            <input type="submit" value="Search"><br><br>
+            <div>
+                <label for="fname">First Name</label>
+                <input type="text" name="first_name" id="fname">
+                <label for="lname">Last Name</label>
+                <input type="text" name="last_name" id="lname">
+            </div>
+            <div>
+                <label for="address">Address</label>
+                <input type="text" name="first_name" id="address">
+                <label for="mobile">Mobile Number</label>
+                <input type="text" name="mobile" id="mobile">
+            </div>
+            <div>
+                <input type="submit" name="submit"><br>
+            </div><br><br>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="f_name">First Name</label>
+                <input type="text" name="first_name" id="f_name">
+                <label for="l_name">Last Name</label>
+                <input type="text" name="last_name" id="l_name">
+            </fieldset>
+            <fieldset>
+                <legend>Others Information</legend>
+                <label for="paddress">Address</label>
+                <input type="text" name="first_name" id="paddress">
+                <label for="pmobile">Mobile Number</label>
+                <input type="text" name="mobile" id="pmobile">
+            </fieldset>
+            <fieldset>
+                <input type="submit" name="submit"><br>
+            </fieldset>
+        </form>
+    </body>
+</html>
