@@ -1,1 +1,0 @@
-alert("Welcome to HTML Learning another Page");
